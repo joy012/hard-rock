@@ -6,7 +6,9 @@ body{
     background-size: 100%;
     background-position: top;
 }
-
+.container{
+    padding: 0;
+}
 .form-control{
     background-color:rgba(255, 255, 255, 0.2);
     padding: 22px;
@@ -35,6 +37,12 @@ body{
 }
 .single-result:hover{
     box-shadow: 5px 5px 10px #eee, -5px -5px 10px #eee;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        font-size: 0.8rem;
+    }
 }
 
 
